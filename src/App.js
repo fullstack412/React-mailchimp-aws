@@ -6,15 +6,16 @@ import "./App.scss"
 class App extends React.Component {
   render() {
     return (
-      <div class="container">
-        <div class="row">
-          <div class="col">
+      <div className="container">
+        <div className="row">
+          <div className="col">
             <h2>User</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <Form>
+        <div className="row">
+          <div className="col">
+            <Form action="https://vi0q1k3t0h.execute-api.us-east-1.amazonaws.com/default/mailchimp-signup" 
+                  method="post">
               <FormGroup>
                 <Label for="name">Name</Label>
                 <Input type="text" name="name" id="name" />
