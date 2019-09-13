@@ -1,8 +1,8 @@
-#Coding Challenge
+# Coding Challenge
 
 Create a react app with a form that posts data to Mailchimp via AWS.
 
-##Install & Deploy to Amazon S3
+## Install & Deploy to Amazon S3
 
 ```bash
 npm install
@@ -12,7 +12,7 @@ npm run deploy
 
 You can check the gateway [Here](http://mailchimp-signup-app.s3-website-us-east-1.amazonaws.com)
 
-##How does it work
+## How does it work
 
 When submit a form, it invokes AWS Lambda Function with form data.
 
